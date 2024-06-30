@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="./style.css">
+</head> 
+<body>
+    <h1 class="title">Rock-Paper-Scissor</h1>
+    <div class="container">
+        <div class="game">
+            <img src="./images/paper.png" class="box" id="paper">
+            <img src="./images/rock.png" class="box" id="rock">
+            <img src="./images/scissor.png" class="box" id="scissor">
+        </div>
+    </div>
+
+    <div class="result-container">
+        <div class="result">
+            <img id="clicked" src="./images/paper.png">
+            <img id="cpu" src="./images/rock.png">
+        </div>
+    </div>
+
+    <div class="naming-container">
+        <p>Player</p>
+        <p>CPU</p>
+    </div>
+
+    <div class="final">
+        <p id="final-result">Result</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./game.js"></script>
+</body>
+</html>

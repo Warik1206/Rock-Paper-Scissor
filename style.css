@@ -1,0 +1,49 @@
+body {
+    background-color: #79B473;
+    text-align: center;
+}
+
+img{
+    height : 200px;
+    width : 200px;
+    padding: 20px;
+}
+
+.title{
+    color: #4C3957;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+p{
+    font-size: 50px;
+    padding:70px;
+    margin-top: 0px; 
+    padding-top:0px ;
+    padding-bottom: 0px;
+}
+
+.naming-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
